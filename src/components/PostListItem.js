@@ -29,7 +29,7 @@ const PostListItem = (props) => {
       songName = data.name;
       artistName = data.artists[0].name;
       setArtist(artistName);
-      setSong(songName)
+      setSong(songName);
       console.log(`Song name: ${songName}. Artist name: ${artistName}`)
     },
     function (err) {
@@ -57,7 +57,7 @@ const PostListItem = (props) => {
   return (
     <div>
       This is the HIHIHI!
-      <div> Song name: {song}</div>
+      <div> Song name: {song} </div>
       <div>Arist Name: {artist} </div>
 
 
